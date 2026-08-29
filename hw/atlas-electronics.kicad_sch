@@ -1,0 +1,273 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "915bc1ff-7be5-4368-a2db-c4889af73afd")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 127 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d53d3f-79cc-4f26-a751-69cec9125b25")
+	)
+	(bus
+		(pts
+			(xy 127 62.23) (xy 130.81 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f374444-948a-4cba-adf6-ab592c38042b")
+	)
+	(bus
+		(pts
+			(xy 130.81 62.23) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5feb1a70-8b5e-4526-875a-e33d17be5e31")
+	)
+	(bus
+		(pts
+			(xy 127 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7c4e62-dd3d-49f2-843b-fa4406cf6f2f")
+	)
+	(bus
+		(pts
+			(xy 130.81 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfb965a-9925-4865-ba08-2575f66b98a9")
+	)
+	(sheet
+		(at 134.62 66.04)
+		(size 34.29 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1b179a84-558c-4a91-97ba-557ac904cbc7")
+		(property "Sheetname" "gate-driver"
+			(at 134.62 65.4554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate-driver.kicad_sch"
+			(at 134.62 109.703 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CURRENT_SENSE}" bidirectional
+			(at 134.62 96.52 180)
+			(uuid "c9786f11-83ca-445d-9a93-06ab95aae646")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_DRV}" bidirectional
+			(at 134.62 99.06 180)
+			(uuid "fd6418bc-ede0-4865-8e2b-5aee6404fd21")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PWM}" bidirectional
+			(at 134.62 102.87 180)
+			(uuid "60979baa-22f0-4304-b60b-356a03b27b68")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 1)
+		)
+		(uuid "44cf26bc-b64b-4a8e-9043-22c9628a2f80")
+		(property "Sheetname" "mcu-power"
+			(at 88.9 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu-power.kicad_sch"
+			(at 88.9 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 50.8)
+		(size 38.1 110.49)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 158 255 175 1)
+		)
+		(uuid "f55389d3-e940-4fdc-b600-a2530eb9690b")
+		(property "Sheetname" "mcu"
+			(at 88.9 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 88.9 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 88.9 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "{CURRENT_SENSE}" bidirectional
+			(at 127 62.23 0)
+			(uuid "c5b4aa6f-8fb0-45cf-b9f7-891020b80809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI_DRV}" bidirectional
+			(at 127 99.06 0)
+			(uuid "704b8fa9-b1ec-4add-bdb6-2fba58597897")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PWM}" bidirectional
+			(at 127 102.87 0)
+			(uuid "f988c1ee-0aea-4bcf-94d4-c9d20a1e9050")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
