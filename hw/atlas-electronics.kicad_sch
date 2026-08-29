@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260826)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "915bc1ff-7be5-4368-a2db-c4889af73afd")
 	(paper "A4")
 	(lib_symbols)
@@ -173,6 +173,52 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 74.93)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cfd1205e-f185-46eb-a2d4-3614128666d4")
+		(property "Sheetname" "inverter"
+			(at 177.8 74.3454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inverter.kicad_sch"
+			(at 177.8 114.783 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd"
+					(page "5")
 				)
 			)
 		)

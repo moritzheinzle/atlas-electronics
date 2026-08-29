@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260826)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "a8b7f0d1-91ec-47a6-9b8c-7fc76ceb958b")
 	(paper "A4")
 	(lib_symbols
@@ -5684,7 +5684,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.1588)
 				(bold yes)
 				(color 0 0 132 1)
 			)
@@ -5775,7 +5775,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.1588)
 				(bold yes)
 				(color 0 0 132 1)
 			)
@@ -5811,7 +5811,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.1588)
 				(bold yes)
 				(color 0 0 132 1)
 			)
