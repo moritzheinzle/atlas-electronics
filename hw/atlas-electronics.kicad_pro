@@ -688,32 +688,20 @@
       "/[3] - GATE-DRIVER/SHC": [
         "High Power"
       ],
-      "/[3] - GATE-DRIVER/SNA": [
-        "DIFFPAIR"
-      ],
-      "/[3] - GATE-DRIVER/SNB": [
-        "DIFFPAIR"
-      ],
-      "/[3] - GATE-DRIVER/SNC": [
-        "DIFFPAIR"
-      ],
       "/[3] - GATE-DRIVER/SPA": [
-        "DIFFPAIR"
+        "DIFFPAIR",
+        "High Power"
       ],
       "/[3] - GATE-DRIVER/SPB": [
-        "DIFFPAIR"
+        "DIFFPAIR",
+        "High Power"
       ],
       "/[3] - GATE-DRIVER/SPC": [
+        "DIFFPAIR",
+        "High Power"
+      ],
+      "GND": [
         "DIFFPAIR"
-      ],
-      "Net-(C20-Pad2)": [
-        "High Power"
-      ],
-      "Net-(C27-Pad2)": [
-        "High Power"
-      ],
-      "Net-(C31-Pad2)": [
-        "High Power"
       ]
     },
     "netclass_patterns": [
@@ -757,7 +745,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -956,7 +944,7 @@
         "uuid": "915bc1ff-7be5-4368-a2db-c4889af73afd"
       }
     ],
-    "used_designators": "Q1-2,R3-7,R24-41,J1,J4-13,C20-21,C23-24,C36-61,D1,D10-14,#PWR19,#PWR30-47,#PWR52,#PWR55,#PWR57-58,#PWR60-81,JP1-5,U6,H1-4,Y1,TP16-24",
+    "used_designators": "Q1-6,R1-41,J1-13,C1-69,D1-14,#PWR1-81,JP1-5,U1-6,H1-4,Y1,TP1-24,FB1,L1,TH1",
     "variants": []
   },
   "sheets": [

@@ -5841,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073c81af-4a7f-4f3d-957f-5597f78e6f6d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR061"
 			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5902,7 +5902,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR036")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5920,7 +5920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cb3e0c9-35cd-456a-9993-58b6c925d0cc")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 69.85 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,7 +5984,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6001,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "10574a6b-b0ad-40d3-9c70-194949efe4d8")
-		(property "Reference" "C46"
+		(property "Reference" "C57"
 			(at 108.966 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,7 +6066,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C46")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6084,7 +6084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13a71134-0160-49c1-8314-6129236d916a")
-		(property "Reference" "C48"
+		(property "Reference" "C53"
 			(at 49.53 104.171 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6148,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C48")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6245,7 +6245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15408661-dd3d-4801-a127-2893a67586f4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR064"
 			(at 34.29 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6306,7 +6306,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR031")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1613294f-d6a8-4460-ab3d-b1ca34ebfaec")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 166.37 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +6393,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6410,7 +6410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "221e939f-3ba4-479f-860a-f187434f22f7")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR066"
 			(at 30.48 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6470,7 +6470,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR045")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -6489,7 +6489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279ff7fd-1eec-4157-aa28-6a2334ada4d0")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 170.18 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6564,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6583,7 +6583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28bd2924-10fa-4387-89f4-f77564b94314")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 55.88 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6684,7 +6684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a8ebf3f-7163-4a7b-8800-1516b4639fe3")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 25.4 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6766,7 +6766,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c8bfae7-38ac-44fc-b496-694b41fb8b70")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6844,7 +6844,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dad23dd-60b8-423a-bce2-c157f607d31f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR048"
 			(at 63.5 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR057")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6940,7 +6940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3383d3c2-6ab5-4b64-a9db-d131c34ba026")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR058"
 			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7001,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR043")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b3f1f9-d9b6-46bd-beab-f09c29d969fd")
-		(property "Reference" "C50"
+		(property "Reference" "C51"
 			(at 182.88 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7083,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7100,7 +7100,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3a33fca0-a0df-400d-ae3a-3b468a9d8dd7")
-		(property "Reference" "C44"
+		(property "Reference" "C55"
 			(at 98.806 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7165,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C44")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7182,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3c0a74ab-4aef-4d86-8939-e069bf55a014")
-		(property "Reference" "C36"
+		(property "Reference" "C46"
 			(at 93.726 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7247,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C36")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -7265,7 +7265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d921d1b-59d9-460d-8321-75554df34057")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR072"
 			(at 205.74 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7326,7 +7326,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR077")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd320da-6d97-41eb-ae38-f1c672c9ef8d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR071"
 			(at 44.45 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -7405,7 +7405,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR055")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7423,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449926cf-3429-47ea-beb5-005bc37f5011")
-		(property "Reference" "C47"
+		(property "Reference" "C52"
 			(at 39.37 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,7 +7487,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C47")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -7504,7 +7504,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45524fa3-8f5e-4255-a403-a00a79d923d6")
-		(property "Reference" "R31"
+		(property "Reference" "R35"
 			(at 55.372 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7566,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R31")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7583,7 +7583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "457125b4-8287-402c-bc2c-1345c58786dd")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 55.372 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7645,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462a5d5e-01fc-44ac-a6df-d9cafa2aeb72")
-		(property "Reference" "R37"
+		(property "Reference" "R32"
 			(at 102.616 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7724,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R37")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7742,7 +7742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c42c928-5906-40cb-a51a-8fe5a4ec71aa")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR060"
 			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7802,7 +7802,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR037")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7821,7 +7821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f8aea1-5751-4501-9683-17d04bb3aaab")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 166.37 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7889,7 +7889,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7906,7 +7906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5384bbdb-6a7f-4e67-bc38-d0c3a45b62c2")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR065"
 			(at 207.01 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7966,7 +7966,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR075")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7984,7 +7984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f6265c-6baa-4f7e-985b-ca220814e055")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR053"
 			(at 193.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8045,7 +8045,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR030")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8062,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "5884d53e-a858-4348-913b-d84157978e57")
-		(property "Reference" "C43"
+		(property "Reference" "C54"
 			(at 93.726 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8127,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C43")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8144,7 +8144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a1a4ac0-fae1-4dce-a754-bfd1c19018f5")
-		(property "Reference" "R38"
+		(property "Reference" "R31"
 			(at 94.996 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8206,7 +8206,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R38")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8224,7 +8224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b87f935-0a51-49e3-988b-0ff48ffeb1a2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR052"
 			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8285,7 +8285,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR040")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8302,7 +8302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e1d7679-7ab2-49ba-9f3f-874ce025ed7a")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 185.166 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +8370,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8388,7 +8388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6068c17f-fe98-4de3-a3d9-cc533b8bf1b5")
-		(property "Reference" "C60"
+		(property "Reference" "C58"
 			(at 212.09 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +8452,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C60")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -8470,7 +8470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635bf6ef-905b-4ba1-a7d5-c02422dd1cd8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR062"
 			(at 46.99 115.6011 0)
 			(hide yes)
 			(show_name no)
@@ -8531,7 +8531,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR038")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8549,7 +8549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f67054-10ea-4f54-a966-56cfe73eed44")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR051"
 			(at 78.74 43.2111 0)
 			(hide yes)
 			(show_name no)
@@ -8610,7 +8610,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR035")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8627,7 +8627,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6a38fd76-89e7-46c9-ac8f-720f61ea4e9f")
-		(property "Reference" "C38"
+		(property "Reference" "C48"
 			(at 103.886 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +8692,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C38")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6afe1c07-6e41-46aa-a639-78dc20fa827e")
-		(property "Reference" "C42"
+		(property "Reference" "C44"
 			(at 81.28 31.781 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +8774,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8792,7 +8792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bc2b01-916d-4782-a768-402653369ddf")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR067"
 			(at 209.55 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8853,7 +8853,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR076")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8872,7 +8872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76198b79-aa8a-4580-87fe-1d9b2686a813")
-		(property "Reference" "J13"
+		(property "Reference" "J9"
 			(at 198.12 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,7 +8950,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J13")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c51523-8d65-4500-a820-4ccff9efa2b8")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 115.57 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9031,7 +9031,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9048,7 +9048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77173b22-ab6c-430e-a0b6-aab239d1787d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR057"
 			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9108,7 +9108,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR042")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82213515-155e-4e76-a4d8-63569536d78f")
-		(property "Reference" "R34"
+		(property "Reference" "R30"
 			(at 238.76 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +9190,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R34")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9207,7 +9207,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "896ae3ca-54e6-4d66-92c8-7dd044442a52")
-		(property "Reference" "C37"
+		(property "Reference" "C47"
 			(at 98.806 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9272,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C37")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -9449,7 +9449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fce5d77-b4aa-409f-9971-6ac62dd6c752")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR050"
 			(at 67.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9510,7 +9510,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR034")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9527,7 +9527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9196eaca-ee66-498f-9089-c9d945972beb")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 83.566 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,7 +9591,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9609,7 +9609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d882b1-f264-4578-9301-711685d4a0ea")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR063"
 			(at 177.8 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9670,7 +9670,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR044")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9687,7 +9687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9606f3e4-a9ca-48a8-9b79-5c9048e74886")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR069"
 			(at 251.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9747,7 +9747,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR078")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9764,7 +9764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98edce2d-2d77-451e-b8e1-1b5a77a3a302")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 55.372 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,7 +9826,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9844,7 +9844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a374425-718d-42c5-ae68-250fdafd15d4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR056"
 			(at 63.5 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9905,7 +9905,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR032")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9923,7 +9923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eb87075-4081-4247-a50b-b171349f6162")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 107.95 101.9174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +9987,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10005,7 +10005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f5dcf2a-0b3c-4feb-98db-f0afcc1505c7")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR054"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10066,7 +10066,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR039")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e32bb2-ade9-47c8-a879-4a451ed16c10")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 46.99 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10148,7 +10148,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa99225a-7e3c-4469-8bee-028d85a72903")
-		(property "Reference" "R33"
+		(property "Reference" "R27"
 			(at 238.76 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +10230,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R33")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10247,7 +10247,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "bb5b9c0e-8282-44a5-8856-f60903f5d538")
-		(property "Reference" "C40"
+		(property "Reference" "C45"
 			(at 88.646 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10312,7 +10312,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C40")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -10329,7 +10329,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "bd5a371d-9b84-43ff-bad9-ac0470620d5a")
-		(property "Reference" "C39"
+		(property "Reference" "C49"
 			(at 108.966 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10394,7 +10394,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C39")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4f4c15a-2114-4b8c-8f75-6862adde03e1")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 87.122 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10553,7 +10553,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10570,7 +10570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d96fb051-1d54-4a64-af21-5d391a9ec24f")
-		(property "Reference" "R32"
+		(property "Reference" "R36"
 			(at 55.372 123.444 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,7 +10632,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R32")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10649,7 +10649,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "dfe4c40c-72b5-4c78-9279-e94f849c4349")
-		(property "Reference" "C45"
+		(property "Reference" "C56"
 			(at 103.886 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +10714,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C45")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -10732,7 +10732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16e6d29-eb4d-4057-8608-d75231032f84")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR049"
 			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10792,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR033")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10810,7 +10810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d08e08-c356-43c5-afb1-5f968aeb1d0e")
-		(property "Reference" "C51"
+		(property "Reference" "C59"
 			(at 36.83 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10874,7 +10874,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C51")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -10970,7 +10970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e41e79ea-4517-4a46-90dc-f8426e7c165a")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 87.122 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11032,7 +11032,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11050,7 +11050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c2d7b1-82ab-44a8-8e23-26a078b476da")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR068"
 			(at 34.29 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11111,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR046")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11129,7 +11129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca8291d-ec15-4e90-882c-6c917008fca4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR070"
 			(at 30.48 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11190,7 +11190,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR047")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -11207,7 +11207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eda84be0-0b45-440a-9c73-f2c7b5e4d7c3")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 247.396 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11269,7 +11269,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11288,7 +11288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7972e4a-451f-4a94-9c8f-414d2569bd5a")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 22.86 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11356,7 +11356,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f92bbd1d-0949-4d44-9754-4a249b663e63")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR055"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11435,7 +11435,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "#PWR041")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11453,7 +11453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbb43bc7-b491-4280-b3e1-b0cc424d2d81")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 252.73 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11517,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)

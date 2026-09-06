@@ -5700,7 +5700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c583843-05b3-408d-905c-1437ac48adcd")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 47.244 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +5949,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/f55389d3-e940-4fdc-b600-a2530eb9690b"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)

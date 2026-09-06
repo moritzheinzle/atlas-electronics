@@ -5,12 +5,13 @@
 	(uuid "c0b98d45-9078-4ebe-8794-bf4b667c0602")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -18,7 +19,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -28,8 +29,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -40,7 +41,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -61,8 +62,8 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -72,7 +73,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,13 +95,13 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -109,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -120,10 +121,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -140,8 +141,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -556,26 +557,26 @@
 		)
 	)
 	(junction
-		(at 125.73 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82394852-5db2-4e27-835b-7f793dbd878e")
-	)
-	(junction
 		(at 114.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a32f456d-511c-43ed-b958-3e5444f658d2")
+		(uuid "8d355cc4-61ed-47cb-b2cc-aed6d40f71a5")
 	)
 	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0bc1c25-a9d5-4c6f-9c3b-07d9b30a520c")
+		(uuid "aaa491cd-513c-4cbb-aee7-53d34177c7ce")
+	)
+	(junction
+		(at 125.73 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34d60e6-96f8-40dd-ab3f-252ed53c02ed")
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 130.81 68.58)
+			(xy 114.3 68.58) (xy 125.73 68.58)
 		)
 		(stroke
 			(width 0)
@@ -595,6 +596,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 74.93) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a0deec-609f-4bb9-8e40-f19160fa53bb")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 130.81 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664d356e-40bf-41e5-b21d-a1d206a94ec0")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915f3abe-fa02-4fb8-9c75-b542d8908ba6")
+	)
+	(wire
+		(pts
 			(xy 114.3 77.47) (xy 114.3 76.2)
 		)
 		(stroke
@@ -602,16 +633,6 @@
 			(type default)
 		)
 		(uuid "af867aea-0109-4a68-ac4b-e9a143059236")
-	)
-	(wire
-		(pts
-			(xy 114.3 68.58) (xy 125.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a18a25-aa77-4a76-ac0b-00897205bcb7")
 	)
 	(wire
 		(pts
@@ -636,7 +657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 64.77 0)
+		(at 114.3 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -645,9 +666,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bc530c4-db29-4b15-88ba-975f3a6f6649")
-		(property "Reference" "R20"
-			(at 116.84 63.4999 0)
+		(uuid "067802ab-3609-4343-a1ee-ef97e39edf44")
+		(property "Reference" "R12"
+			(at 116.84 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -657,8 +678,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 116.84 66.0399 0)
+		(property "Value" "10k 1%"
+			(at 116.84 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -668,8 +689,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
-			(at 112.522 64.77 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.522 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -680,7 +701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 64.77 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -691,7 +712,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 64.77 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -701,16 +722,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "adee11ed-eece-4db0-b945-954559742401")
+		(property "LCSC" "C25804"
+			(at 114.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "50cf7129-962e-49dc-8ac4-6a23f8d80bc9")
+			(uuid "291b39bb-d106-414b-bdf2-fc05a49e6798")
+		)
+		(pin "1"
+			(uuid "4c022fe0-7a09-4f1d-aff5-589bc3979532")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -728,7 +760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9edf1e-cfad-4642-a7ac-2a448bc52a17")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR036"
 			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -788,15 +820,15 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
-					(reference "#PWR020")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 72.39 0)
+		(lib_id "Device:C_Small")
+		(at 125.73 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -805,9 +837,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40a742a7-fefb-4d22-a61d-cfb1b6678bb9")
-		(property "Reference" "R21"
-			(at 116.84 71.1199 0)
+		(uuid "6f48a29d-7c7e-4548-9866-1d9a932bf995")
+		(property "Reference" "C39"
+			(at 128.27 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -817,8 +849,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 116.84 73.6599 0)
+		(property "Value" "10n X7R 50V"
+			(at 128.27 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -828,8 +860,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
-			(at 112.522 72.39 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -840,7 +872,97 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 72.39 0)
+			(at 125.73 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 125.73 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99635397-32ac-4f10-8c32-9ef68813e036")
+		)
+		(pin "1"
+			(uuid "892f863d-eacc-4a71-8514-74d626abade4")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f3261cc-09d0-4557-b9dc-d3b1b675aba9")
+		(property "Reference" "R11"
+			(at 117.602 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 119.38 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.522 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -851,7 +973,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 72.39 0)
+			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -861,98 +983,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "b3561599-3582-47ab-924f-dbe440a30616")
+		(property "LCSC" "C25803"
+			(at 114.3 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "87084be3-0950-4ace-84b0-43cfed322c50")
+			(uuid "06068089-ef53-4e30-86a1-b86d1f9de942")
+		)
+		(pin "1"
+			(uuid "bc514c8a-6e07-4847-b20e-abacaa9dd061")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "480d8c37-7929-4fa8-bad7-ea9f7b8a6e5b")
-		(property "Reference" "C33"
-			(at 129.54 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 129.54 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.6952 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e25b411-bcfd-497f-b0f9-d650908eed9b")
-		)
-		(pin "2"
-			(uuid "79006dcc-e764-4ed7-a6af-04439a6ae886")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
-					(reference "C33")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -970,7 +1021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe8e93d-02a1-4469-918d-76b91e4f3ff1")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR037"
 			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1031,7 +1082,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/8b207c98-7a97-4a14-bebf-ea2600be8946"
-					(reference "#PWR054")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

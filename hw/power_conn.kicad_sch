@@ -176,7 +176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80413298-187f-4c7b-aeef-d6726e9e9c3e")
-		(property "Reference" "J4"
+		(property "Reference" "J12"
 			(at 114.3 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -240,7 +240,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/31111bce-c3cf-4571-96fd-1e6d0b264e78"
-					(reference "J4")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -258,7 +258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8f20c66-71f8-462e-81d9-8cfe9c67b487")
-		(property "Reference" "J5"
+		(property "Reference" "J13"
 			(at 114.24 108.2969 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -322,7 +322,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/31111bce-c3cf-4571-96fd-1e6d0b264e78"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 			)

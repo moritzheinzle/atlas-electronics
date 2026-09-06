@@ -160,6 +160,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -1176,133 +1332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "symbols:DRV8323RS_U"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2284,6 +2313,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 184.15 125.73)
+		(end 199.39 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3cfe2ef7-bd46-4cb7-8d28-5d2e761cb4cd")
+	)
+	(text "Anschauen wegen lcsc\n"
+		(exclude_from_sim no)
+		(at 190.754 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "0e67233c-fb06-4d82-bff2-e80d32cd6ef3")
+	)
 	(junction
 		(at 153.67 111.76)
 		(diameter 0)
@@ -2295,6 +2346,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10d69382-df12-44ab-806d-83e272c69b4e")
+	)
+	(junction
+		(at 123.19 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "154eb327-9a56-448f-a25e-419455b74d88")
 	)
 	(junction
 		(at 152.4 27.94)
@@ -2325,12 +2382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4364c03e-0cd4-4556-bde1-2f06c1f0e974")
-	)
-	(junction
-		(at 123.19 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50ce9cf9-d127-414e-bc38-fd785624d0f9")
 	)
 	(junction
 		(at 151.13 111.76)
@@ -2517,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 133.35) (xy 137.16 133.35)
+			(xy 135.89 133.35) (xy 137.16 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2547,13 +2598,33 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 123.19 38.1)
+			(xy 123.19 35.56) (xy 123.19 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09961ee8-8a54-4a2e-93fa-449335b4daf1")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad13e2f-d64f-4c37-87b0-f73567a817f3")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 137.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae99e18-a09c-49e6-8985-fc2ee11f0f6c")
 	)
 	(wire
 		(pts
@@ -2597,16 +2668,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 133.35) (xy 194.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142bdc26-fe98-45c2-99d6-e5a9513131c1")
-	)
-	(wire
-		(pts
 			(xy 111.76 102.87) (xy 137.16 102.87)
 		)
 		(stroke
@@ -2624,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "16ed0252-8299-4c71-8e4d-7913af78322e")
+	)
+	(wire
+		(pts
+			(xy 176.53 125.73) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1751940d-9185-4d06-a62f-b45cd2161959")
 	)
 	(bus
 		(pts
@@ -2657,6 +2728,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 50.8) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d064363-d23e-4a3c-8242-c46e34687d36")
+	)
+	(wire
+		(pts
 			(xy 176.53 133.35) (xy 184.15 133.35)
 		)
 		(stroke
@@ -2674,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "32a5e6c1-28c3-4f3d-9703-2b01f36aa087")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fe487d-228d-4ec4-af23-fa1b530bbc62")
 	)
 	(wire
 		(pts
@@ -2754,26 +2845,6 @@
 			(type default)
 		)
 		(uuid "4c3fe47f-dcf8-424d-8fe8-ce36c08f7efd")
-	)
-	(wire
-		(pts
-			(xy 123.19 54.61) (xy 137.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e984af5-096b-4cc1-867a-0f0448a2deed")
-	)
-	(wire
-		(pts
-			(xy 127 128.27) (xy 137.16 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5101d114-f55f-4dc5-ac30-f0c1faa82dc8")
 	)
 	(wire
 		(pts
@@ -2917,6 +2988,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 48.26) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71155545-3d18-46a1-8c68-4d94dfc3ec22")
+	)
+	(wire
+		(pts
+			(xy 191.77 133.35) (xy 194.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74351844-b97f-43a7-a387-28ed41f043c0")
+	)
+	(wire
+		(pts
 			(xy 190.5 62.23) (xy 167.64 62.23)
 		)
 		(stroke
@@ -2977,6 +3068,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 53.34) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a7a45e-b332-4a12-983b-9ce78dbb2a58")
+	)
+	(wire
+		(pts
 			(xy 152.4 27.94) (xy 152.4 39.37)
 		)
 		(stroke
@@ -3007,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 189.23 105.41)
+			(xy 189.23 102.87) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 27.94) (xy 123.19 29.21)
+			(xy 123.19 27.94) (xy 123.19 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3044,6 +3145,16 @@
 			(type default)
 		)
 		(uuid "9c26de4c-6981-4abf-a28e-033e9d33d654")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c6f223-fa24-42fe-877c-9f9c75c70e5a")
 	)
 	(wire
 		(pts
@@ -3087,7 +3198,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 189.23 113.03)
+			(xy 176.53 132.08) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd2b97f-d997-4fc6-877a-939fe489d7a7")
+	)
+	(wire
+		(pts
+			(xy 189.23 115.57) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3257,16 +3378,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 46.99) (xy 137.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1dd4728-1e46-4706-9f3a-82755f66de89")
-	)
-	(wire
-		(pts
 			(xy 190.5 87.63) (xy 167.64 87.63)
 		)
 		(stroke
@@ -3417,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 128.27) (xy 127 128.27)
+			(xy 123.19 128.27) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3827,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "061f1f47-ce50-4d8b-96be-fd23e29d1c67")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3888,7 +3999,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3906,7 +4017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09bfb39b-8a84-4f48-942b-c9905054a0ac")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 208.28 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3917,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10u X5R 25V"
 			(at 208.28 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.4352 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3961,6 +4072,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 204.47 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d92d6f8-df3a-4ab1-adf1-2d1da5b65126")
 		)
@@ -3970,89 +4092,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f1a4705-7673-4a95-89c9-12531536e1b9")
-		(property "Reference" "C14"
-			(at 127 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 50V"
-			(at 127 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.1552 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39f423fa-d2aa-43dc-9458-0f02463bb3d7")
-		)
-		(pin "1"
-			(uuid "da5740f8-792b-4530-9247-3b9288ea9241")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136a7267-5548-4290-a785-87a71f2772d3")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 196.85 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +4174,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4182,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 50.8 0)
+		(at 170.18 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4150,10 +4190,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22a5926c-ff44-4934-8255-efbc191c6613")
-		(property "Reference" "C15"
-			(at 127 49.53 0)
+		(uuid "1c1c924d-bd60-4649-ae15-912111dab9c2")
+		(property "Reference" "C16"
+			(at 172.974 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4163,8 +4202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n X7R 100V"
-			(at 127 52.07 0)
+		(property "Value" "1u X5R 50V"
+			(at 172.974 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4174,8 +4213,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.1552 54.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 171.1452 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4186,7 +4225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 50.8 0)
+			(at 170.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4236,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 50.8 0)
+			(at 170.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,16 +4246,27 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 170.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "1c4a9d9e-78f4-4f38-b8d8-6575f5ea5d69")
+			(uuid "fcfda527-f85e-406a-9bb4-46453f90abd3")
 		)
 		(pin "1"
-			(uuid "44e3c700-aef6-4a70-bc26-d658bcaf9f51")
+			(uuid "bfdaf79e-908a-4ad2-b1fa-21b767cc7cc5")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4274,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 55.88 0)
+		(at 104.14 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4235,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "31111e12-51c1-4260-8e48-e51ed762c6fe")
 		(property "Reference" "R1"
-			(at 106.68 54.61 0)
+			(at 106.68 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4245,8 +4295,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 106.68 57.15 0)
+		(property "Value" "10k 1%"
+			(at 106.68 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4256,8 +4306,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.362 55.88 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.362 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,7 +4318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 55.88 0)
+			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,13 +4329,24 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 55.88 0)
+			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4305,8 +4366,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 176.53 129.54 0)
+		(lib_id "Device:C_Small")
+		(at 123.19 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4315,9 +4376,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42f019ca-ee66-4ce0-8bce-7d4c45146458")
-		(property "Reference" "C18"
-			(at 180.34 128.2699 0)
+		(uuid "424e0946-00b2-496d-a3a9-37f7f1f79164")
+		(property "Reference" "C15"
+			(at 125.73 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4327,8 +4388,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 180.34 130.8099 0)
+		(property "Value" "47n X7R 50V"
+			(at 125.73 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4338,8 +4399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.4952 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 129.54 0)
+			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,8 +4421,100 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 129.54 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1622"
+			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9676dfb2-8cbd-4456-a56f-6c3919248b73")
+		)
+		(pin "1"
+			(uuid "7029289d-e91c-4b1f-9a13-c0b91f85a7af")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 123.19 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1e2718-5cbd-4381-8168-2e3958f6f0ca")
+		(property "Reference" "#PWR018"
+			(at 123.19 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 123.19 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,15 +4525,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3aab6bb4-965e-4a85-ba87-ef2a0de830bb")
-		)
-		(pin "2"
-			(uuid "dea9fdd5-c496-4878-911c-380dd42559fa")
+			(uuid "e00d7b40-5d67-4cfa-a1d8-6694ff06482a")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4398,7 +4548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd39b6e-1ce2-4930-bca1-26880e7e8135")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 179.07 135.5724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +4559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1A 40V"
 			(at 179.07 138.1124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 176.53 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4453,6 +4603,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C8598"
+			(at 176.53 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b82b1f90-4f1e-4492-8cf0-ee2cc089a5b3")
 		)
@@ -4462,15 +4623,15 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 104.14 52.07 0)
+		(lib_id "Device:C")
+		(at 83.82 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4478,31 +4639,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d4f923-942f-4bd2-94c2-e4ea074ae7dc")
-		(property "Reference" "#PWR015"
-			(at 104.14 55.88 0)
-			(hide yes)
+		(uuid "50d5a8aa-5974-45ee-b4b4-a963bc6d2e59")
+		(property "Reference" "C12"
+			(at 86.614 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 104.14 46.99 0)
+		(property "Value" "1u X5R 50V"
+			(at 86.614 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 84.7852 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4674,98 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 52.07 0)
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 83.82 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21fd303e-0ebe-430b-93c1-fc902e92fce2")
+		)
+		(pin "1"
+			(uuid "61322873-22dd-4c96-831f-aa49c7c7753f")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51d4f923-942f-4bd2-94c2-e4ea074ae7dc")
+		(property "Reference" "#PWR013"
+			(at 104.14 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.95 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.14 52.07 0)
+			(at 104.14 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4792,99 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR015")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68c78a36-1803-428b-ab23-0ffc53f5e44a")
+		(property "Reference" "C18"
+			(at 171.45 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 171.45 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "685f0b7b-77da-4bc5-b889-17ff54358611")
+		)
+		(pin "1"
+			(uuid "1a90a93c-1b9b-465b-a621-7c2855246ddb")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4557,7 +4901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "697ab05c-140a-4cb1-8998-5039a2ec13a2")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 141.478 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,8 +5104,101 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dbce364-d1be-4447-ac34-402655330c12")
+		(property "Reference" "C17"
+			(at 191.77 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 191.77 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 189.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 189.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84e2575a-6243-49c3-8cfd-ba7db5d5796b")
+		)
+		(pin "1"
+			(uuid "7045dfc6-3856-4478-87e0-5e0f1f97e7a4")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C17")
+					(unit 1)
 				)
 			)
 		)
@@ -4778,7 +5215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd76260-2c58-4736-881e-ac5d296c51d7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR024"
 			(at 204.47 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +5276,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR049")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4856,7 +5293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71b14c4c-a50d-4d08-a8b7-929a6fe0a56c")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR020"
 			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4917,89 +5354,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71fb5e5e-c464-46f5-88b5-f1d908ec5aa6")
-		(property "Reference" "C12"
-			(at 87.63 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u X7R 25V"
-			(at 87.63 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.7852 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "244d1f87-e7bb-4ff3-98dc-7204a5581814")
-		)
-		(pin "1"
-			(uuid "94face08-0497-4efb-a075-c5ed82345da2")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C12")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5028,7 +5383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "4u7 X7R 50V"
 			(at 107.95 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.1052 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5072,6 +5427,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C29823"
+			(at 104.14 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2defb0d-8d23-4ccd-9d9f-1e3fbf7ce8a0")
 		)
@@ -5098,7 +5464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "820e3681-843a-4809-95a4-ec2d9b28d01f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5158,88 +5524,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "855702c2-607c-481a-8105-63299f2d98de")
-		(property "Reference" "C22"
-			(at 115.316 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 115.316 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.1552 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c8316d5-eb22-44ba-8c45-3ab9d9c37392")
-		)
-		(pin "2"
-			(uuid "caa9496f-2df4-4d5e-8718-b84b2caccbdc")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C22")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5257,7 +5542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c732b5b-d88c-4fea-9aa6-66e3dcbfea99")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 196.85 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5606,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5634,7 @@
 				)
 			)
 		)
-		(property "Value" "6u8"
+		(property "Value" "33uH"
 			(at 187.96 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_ANR6020"
 			(at 187.96 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5392,6 +5677,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C341059"
+			(at 187.96 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "02f017a0-74a5-47e3-98c8-aefcc13ea249")
 		)
@@ -5419,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91076d92-3565-44c1-95a2-5a4476734f24")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 104.14 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5480,7 +5776,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 133.35 90)
+		(at 132.08 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5498,7 +5794,7 @@
 		(dnp no)
 		(uuid "93c54f90-f20a-4ef1-b0e8-acb6feb20832")
 		(property "Reference" "R2"
-			(at 130.81 130.81 90)
+			(at 132.08 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5507,8 +5803,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 130.81 135.89 90)
+		(property "Value" "100k 1%"
+			(at 132.08 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5517,8 +5813,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 130.81 135.128 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.08 135.128 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 133.35 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,13 +5836,24 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 133.35 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 132.08 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5577,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a62c36-026a-4383-b3b3-e5b621d6c720")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR019"
 			(at 204.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5637,7 +5944,192 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR051")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a86ab832-8f2d-4ffb-a7a1-1b300548d4e6")
+		(property "Reference" "C19"
+			(at 117.348 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7 X7R 50V"
+			(at 110.49 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 124.1552 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29823"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "faeac431-b2ca-4d18-a341-a1ebf250b220")
+		)
+		(pin "1"
+			(uuid "c287c2ea-4730-4a0e-a3ca-2a5623e4da54")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d0feaa-c063-44d0-88fb-6dc0c2d117e8")
+		(property "Reference" "C14"
+			(at 125.73 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 125.73 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.19 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 123.19 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e21b19a-da34-4260-a881-b2855005b039")
+		)
+		(pin "1"
+			(uuid "059ea667-7551-4da2-87f7-18b62ecf57b6")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5655,7 +6147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaa66bed-20aa-4c31-bc31-a1a0304a7b31")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5716,167 +6208,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VS")
-		(at 123.19 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3f72e03-1184-4e17-975a-5061cfdc5cc4")
-		(property "Reference" "#PWR016"
-			(at 123.19 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VS"
-			(at 123.19 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 123.19 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a85560e5-f75e-4f9e-9f0a-5d248ec27321")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c250b08c-bc4a-44f1-8be9-9e2ed7c611c9")
-		(property "Reference" "C17"
-			(at 193.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 16V"
-			(at 193.04 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.1952 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "baeaf0bf-bc6f-46a9-b94f-03f3e24c5739")
-		)
-		(pin "1"
-			(uuid "d0496fee-68f5-49ba-8f50-42ce5c973ada")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C17")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5893,7 +6225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbd58152-3110-4d4f-b717-30acfaabaa45")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR021"
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5954,7 +6286,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR056")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5972,7 +6304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1242ddb-eca3-4ba8-b65b-0b526018f89a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 104.14 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6032,7 +6364,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61c1062-c43d-4264-8a2d-c7f8654f17ea")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR023"
 			(at 194.31 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6111,7 +6443,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR048")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6128,7 +6460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df21d1ab-ea0a-438c-9124-c31c186d9954")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 139.7 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,89 +6664,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e73633a8-9c77-43db-92a5-b0e04e43f071")
-		(property "Reference" "C16"
-			(at 173.99 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u X7R 10V"
-			(at 173.99 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.1452 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0fccb135-d27f-489b-b3ec-c3f79f45cb43")
-		)
-		(pin "1"
-			(uuid "31ca4d79-edbb-4433-ba32-d988d2071421")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "C16")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e50330-cfe4-4150-b46c-cdc91e74d24c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 170.18 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6493,7 +6743,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6510,7 +6760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fafe059f-7305-4a53-8d90-18c42515b1a1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR022"
 			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6571,7 +6821,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/1b179a84-558c-4a91-97ba-557ac904cbc7"
-					(reference "#PWR050")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

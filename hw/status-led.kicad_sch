@@ -913,11 +913,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Either SK6805 ec15 is small or sk6805 micro j bigger"
+		(exclude_from_sim no)
+		(at 120.65 75.184 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "3da7029e-1616-4163-8e51-87ea0de7e9aa")
+	)
 	(junction
 		(at 113.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "013a7919-9825-4c86-a9a3-87ec9f918fe7")
+	)
+	(junction
+		(at 199.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "144e7bb7-2415-49c5-99db-1cf98a91b739")
+	)
+	(junction
+		(at 156.21 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1713d47c-f4d5-49c7-b96b-c2b3194b04b2")
 	)
 	(junction
 		(at 82.55 88.9)
@@ -938,16 +960,16 @@
 		(uuid "337d44e4-d07e-4317-92d4-7f945315392e")
 	)
 	(junction
-		(at 156.21 104.14)
+		(at 134.62 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "470f7f79-fa5b-4fd7-bd01-5911036d2b66")
+		(uuid "50126921-9eea-4941-91fc-0f9531bd4e7f")
 	)
 	(junction
-		(at 199.39 88.9)
+		(at 177.8 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50cc8dd0-82df-47aa-8ded-185bd0363693")
+		(uuid "534732d6-618c-4400-985b-da7ba9d0e963")
 	)
 	(junction
 		(at 156.21 88.9)
@@ -956,22 +978,10 @@
 		(uuid "55d1091d-3ca7-437f-99ec-c7037fa34a53")
 	)
 	(junction
-		(at 134.62 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d054aba-9084-42ba-9fa8-e51fb31c05e5")
-	)
-	(junction
 		(at 82.55 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91947146-5888-4a79-b2d9-f82a0698f233")
-	)
-	(junction
-		(at 177.8 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9591cf0c-944d-427f-bda3-122093a802ba")
 	)
 	(junction
 		(at 177.8 88.9)
@@ -1041,16 +1051,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 156.21 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29deb2d9-5c0b-476d-991b-3f988dfc2cb5")
-	)
-	(wire
-		(pts
 			(xy 199.39 77.47) (xy 199.39 88.9)
 		)
 		(stroke
@@ -1111,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 199.39 104.14)
+			(xy 156.21 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1171,6 +1171,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 104.14) (xy 199.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f348260-665d-4d9f-8449-10addb65ed2a")
+	)
+	(wire
+		(pts
 			(xy 181.61 85.09) (xy 181.61 83.82)
 		)
 		(stroke
@@ -1211,16 +1221,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8871ab12-2398-4a86-a180-e2e36a28ab02")
-	)
-	(wire
-		(pts
 			(xy 90.17 96.52) (xy 105.41 96.52)
 		)
 		(stroke
@@ -1228,6 +1228,16 @@
 			(type default)
 		)
 		(uuid "8a3d2dac-33f9-4fcb-a300-4e97684db9d8")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a82dc47-439d-455d-abba-bdfc48fb7a8a")
 	)
 	(wire
 		(pts
@@ -1442,7 +1452,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 81.28 0)
+		(at 116.84 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1451,9 +1461,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15524259-e02f-4854-a02e-5b5fab856449")
-		(property "Reference" "C57"
-			(at 205.74 80.0099 0)
+		(uuid "25ed4b53-89e3-423b-a1e4-007c8ce3eabc")
+		(property "Reference" "C34"
+			(at 119.38 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1463,8 +1473,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 205.74 82.5499 0)
+		(property "Value" "100n X7R 50V"
+			(at 119.38 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1475,7 +1485,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.2 81.28 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +1496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 81.28 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1497,7 +1507,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 203.2 91.44 0)
+			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1507,24 +1517,35 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "92a7482d-3c24-4160-b14a-45c4289165fe")
+		(property "LCSC" "C14663"
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "0bca5165-6c13-4b36-ad8c-f02559186914")
+			(uuid "e98e2ca5-9704-4cdb-b5e4-4ecbfc9f3c1a")
+		)
+		(pin "1"
+			(uuid "888a4144-99ff-4223-8666-f17527be58df")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C57")
+					(reference "C34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 138.43 81.28 0)
+		(lib_id "LED:SK6805")
+		(at 156.21 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1533,31 +1554,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3485d22d-e9ff-460d-8fcc-58aff6b2205a")
-		(property "Reference" "C54"
-			(at 140.97 80.0099 0)
+		(uuid "3d33ef70-dfa6-4f5f-928f-0768c4f177f9")
+		(property "Reference" "D7"
+			(at 166.37 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 140.97 82.5499 0)
+		(property "Value" "SK6805"
+			(at 166.37 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 81.28 0)
+		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 158.75 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1567,38 +1610,33 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 138.43 81.28 0)
+		(property "LCSC" "C2909056"
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 138.43 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e44d164-18f2-4bd5-9d5c-41ed301b6d9e")
 		)
 		(pin "2"
-			(uuid "74fa1475-b81c-4259-81fc-f1c755fe4b83")
+			(uuid "8a8934a1-1112-463a-ba7d-447406474bde")
+		)
+		(pin "1"
+			(uuid "9e07b33d-f89a-424f-ae3f-991b51ccd712")
+		)
+		(pin "3"
+			(uuid "8c9eae76-79fb-4d05-be49-9458439aa46f")
+		)
+		(pin "4"
+			(uuid "8ddd1d3b-cb36-4db2-aee0-5a830c9aed54")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C54")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1671,6 +1709,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2909056"
+			(at 113.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5416965d-a84d-497f-814a-dbec029cbbce")
 		)
@@ -1704,7 +1753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52df8559-58bf-4c3a-9ea5-9c1e5cc63b88")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 82.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1764,7 +1813,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1782,7 +1831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5740ff72-3a9d-4c2c-a6f8-aaa9be620f40")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR035"
 			(at 82.55 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1843,7 +1892,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR053")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1861,7 +1910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e438130-973c-44e5-93cc-05551d458d4c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR029"
 			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1922,7 +1971,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR063")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd27dd4-7204-4c49-8ddb-dfbec13c61c9")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR030"
 			(at 138.43 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2001,7 +2050,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR064")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2058,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6805")
-		(at 134.62 96.52 0)
+		(at 177.8 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2018,9 +2067,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7984bd49-1d5b-4759-ae1a-b526c5e8b9ba")
-		(property "Reference" "D6"
-			(at 144.78 90.0998 0)
+		(uuid "7100c933-86c3-4841-8658-0d81d9220a3c")
+		(property "Reference" "D8"
+			(at 187.96 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2030,7 +2079,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 144.78 92.6398 0)
+			(at 187.96 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2040,7 +2089,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
-			(at 135.89 104.14 0)
+			(at 179.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 137.16 106.045 0)
+			(at 180.34 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2113,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 134.62 96.52 0)
+			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2074,22 +2123,219 @@
 				)
 			)
 		)
+		(property "LCSC" "C2909056"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "b3cb07e2-f48e-4a8d-a321-2b5c86a91c69")
+			(uuid "f7bab2ec-402b-4baa-a5e2-ba21e4df9559")
 		)
 		(pin "1"
-			(uuid "c4c567c2-13e9-4d6c-bcfe-35fb9abb8d72")
+			(uuid "3f1a16b1-ba14-46f4-b4be-ff4864249ab5")
 		)
 		(pin "3"
-			(uuid "bbd663c4-03d8-4b66-b2b1-36ddb9abb175")
+			(uuid "3295be32-8f49-453d-bf8e-97d2e83b36eb")
 		)
 		(pin "4"
-			(uuid "02bbfc32-52ca-4f24-b4e8-1ac0e41010b5")
+			(uuid "c5051d9b-1866-48b8-b7d7-dbd4a0ab8c83")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "D6")
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f695f1f-edc9-458c-b1d9-f63c720aab86")
+		(property "Reference" "C33"
+			(at 88.9 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 88.9 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dfc78765-4b2c-4c93-afa0-add516dfed0b")
+		)
+		(pin "1"
+			(uuid "b3c15c02-5337-4ccd-8101-7dbf11cdffd9")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 160.02 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94348a6d-8340-43ad-be5c-429182ce7d50")
+		(property "Reference" "C36"
+			(at 162.56 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 162.56 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 160.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 160.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 160.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a16315c-f156-4d9b-b832-953c81863405")
+		)
+		(pin "1"
+			(uuid "954d44fc-758e-4758-875d-06865f0df016")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2106,9 +2352,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9597370e-1cca-4e98-896b-44c612aeacab")
-		(property "Reference" "C56"
-			(at 184.15 80.0099 0)
+		(uuid "9b2ce7ab-ef82-44aa-8bcc-46ee9d072bb0")
+		(property "Reference" "C37"
+			(at 184.15 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2118,8 +2364,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 184.15 82.5499 0)
+		(property "Value" "100n X7R 50V"
+			(at 184.15 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2162,16 +2408,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "70710e5f-cbf4-4e81-b236-797dc2aee151")
+		(property "LCSC" "C14663"
+			(at 181.61 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "8431064e-9965-4be3-9791-66add86b8fae")
+			(uuid "6a618f86-65c8-4b4d-9a31-435603542428")
+		)
+		(pin "1"
+			(uuid "e5369258-c099-4860-814e-ad29cc006e33")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C56")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2189,7 +2446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c45f3cf-4ac0-43ea-8422-21c202ce683a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR028"
 			(at 86.36 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2507,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR062")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2268,7 +2525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7e00456-b7c0-44b2-8fb4-2137ab019401")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR033"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2329,95 +2586,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6805")
-		(at 156.21 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab30dd5c-61e8-4721-9d25-c9b223b6de5b")
-		(property "Reference" "D7"
-			(at 166.37 90.0998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805"
-			(at 166.37 92.6398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
-			(at 157.48 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 158.75 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 156.21 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b75b986-01df-441a-9f68-71cd7a61ecdc")
-		)
-		(pin "1"
-			(uuid "58400ade-9833-4d6d-b593-c1a6ed7881fe")
-		)
-		(pin "3"
-			(uuid "7c620086-9ac8-4d17-9a68-0ee4b840f646")
-		)
-		(pin "4"
-			(uuid "573cbef4-3a4b-42b5-80c4-480161761a30")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "D7")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2488,6 +2657,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C75925"
+			(at 82.55 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ee3feca-dd66-4247-8366-4d8c8694f7c4")
 		)
@@ -2524,7 +2704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85ae3b1-f887-4e91-9ee7-c37590480507")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR034"
 			(at 59.69 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2585,7 +2765,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR079")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2603,7 +2783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb0d2fe8-5d17-42bc-877f-8c77168ab08d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR032"
 			(at 181.61 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2664,7 +2844,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR066")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.02 81.28 0)
+		(at 138.43 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2681,9 +2861,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9db3fce-9076-4c74-be86-3567cec806e0")
-		(property "Reference" "C55"
-			(at 162.56 80.0099 0)
+		(uuid "d94795c1-dd96-434a-abe5-b6fc65a130e8")
+		(property "Reference" "C35"
+			(at 140.97 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2693,8 +2873,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 162.56 82.5499 0)
+		(property "Value" "100n X7R 50V"
+			(at 140.97 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2705,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 81.28 0)
+			(at 138.43 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 81.28 0)
+			(at 138.43 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 91.44 0)
+			(at 138.43 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,180 +2917,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "932e4b61-900a-45a0-a560-ccea2ff17b31")
+		(property "LCSC" "C14663"
+			(at 138.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "87ed269f-edd4-460a-8dda-1e477a39d013")
+			(uuid "ade0e581-f620-49b1-be70-a5855e8ecc0b")
+		)
+		(pin "1"
+			(uuid "8fdd3117-6b9e-4c73-9324-78aa1fd63926")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 116.84 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e85f9258-30c4-442d-979d-0b4618743a01")
-		(property "Reference" "C53"
-			(at 119.38 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 119.38 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9df19d3-1be8-41ce-8e45-9bbc5ed7bdf2")
-		)
-		(pin "2"
-			(uuid "4d0b33f3-4445-46bf-8542-aa16d57289a4")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 86.36 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec99110e-f98b-4982-bef5-745fd3c146a0")
-		(property "Reference" "C52"
-			(at 88.9 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 88.9 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e65602f9-db75-408d-89fd-8dea16ae4feb")
-		)
-		(pin "2"
-			(uuid "00f3642e-d4c4-424d-9e94-068ce62d92dd")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "C52")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2927,7 +2954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eddd1939-1c4a-49a8-9743-689b85e47f5f")
+		(uuid "dcc49c68-bb6d-49fe-bc50-76b236a7dc47")
 		(property "Reference" "D9"
 			(at 209.55 90.0998 0)
 			(show_name no)
@@ -2983,22 +3010,126 @@
 				)
 			)
 		)
+		(property "LCSC" "C2909056"
+			(at 199.39 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "524e84e1-393f-4b48-b251-dcf8de474ab8")
+			(uuid "42b1d2fb-c39d-4370-8a2d-f24038075dc9")
 		)
 		(pin "1"
-			(uuid "c8254962-e278-4344-96f9-506318d75613")
+			(uuid "3fa1bbef-b20e-46a1-a5e8-099681f7c64f")
 		)
 		(pin "3"
-			(uuid "d6b2e4f0-9de9-47b1-8578-e5df2e858c0f")
+			(uuid "741fc6d2-4a5a-4970-a031-8dc2ac2e15dc")
 		)
 		(pin "4"
-			(uuid "8fcea89e-a123-4558-b6ed-d974f73126c7")
+			(uuid "9ee4f80a-f89c-4f75-a300-ba5ab6852e34")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c8681c-5c24-4306-a5e7-77a0b21364ea")
+		(property "Reference" "C38"
+			(at 205.74 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n X7R 50V"
+			(at 205.74 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 203.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "676dbc80-43b8-49c3-9b42-34c96b7d9e0d")
+		)
+		(pin "1"
+			(uuid "9da8ab08-2e56-4aa1-9c3e-cd12cd691fbd")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d2af75-eb73-44b3-8b15-7aec43906915")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR031"
 			(at 160.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3077,7 +3208,7 @@
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "#PWR065")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3216,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6805")
-		(at 177.8 96.52 0)
+		(at 134.62 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3094,9 +3225,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f91d8e43-ea2d-4c6a-aba1-83af4e542eb5")
-		(property "Reference" "D8"
-			(at 187.96 90.0998 0)
+		(uuid "f671112a-38de-4a9c-ba96-6f4c36885286")
+		(property "Reference" "D6"
+			(at 144.78 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3106,7 +3237,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 187.96 92.6398 0)
+			(at 144.78 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3116,7 +3247,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
-			(at 179.07 104.14 0)
+			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3259,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 180.34 106.045 0)
+			(at 137.16 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3271,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 177.8 96.52 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,22 +3281,33 @@
 				)
 			)
 		)
+		(property "LCSC" "C2909056"
+			(at 134.62 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "75f71e4b-b0e6-4008-8b5a-e35594baec6a")
+			(uuid "8046fe60-e1b7-4d4b-bb0f-84d36a7b5abf")
 		)
 		(pin "1"
-			(uuid "473a4d2a-73e9-4bbc-97f8-77ae95aeef88")
+			(uuid "29f00893-07c5-4f5f-9972-0b6303ca9483")
 		)
 		(pin "3"
-			(uuid "e1d52b14-f70f-4a87-b14c-a55aa9ceaed5")
+			(uuid "1371bc49-004f-4952-b391-1185f1c14b7c")
 		)
 		(pin "4"
-			(uuid "46ad57ad-3afe-49c9-8076-e3ce313cadd2")
+			(uuid "14249ca8-33f7-4929-8e40-49fe0a0a83bd")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/b078b57d-4d89-43d0-9eee-ad52fa2fd47e"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
