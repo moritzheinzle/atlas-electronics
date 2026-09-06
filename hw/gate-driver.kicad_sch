@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260826)
+	(version 20260830)
 	(generator "eeschema")
 	(generator_version "10.99")
 	(uuid "bcd73ace-d52e-459a-b2a8-953bdbfdcaae")
@@ -3596,7 +3596,7 @@
 		(uuid "fb69515b-50bf-4d7b-9410-8998a07dfebe")
 	)
 	(hierarchical_label "{PWM}"
-		(shape bidirectional)
+		(shape input)
 		(at 92.71 63.5 180)
 		(effects
 			(font
@@ -3761,7 +3761,7 @@
 		(uuid "e94e7a76-d4ec-48ae-bba3-7507f155042b")
 	)
 	(hierarchical_label "DRV_EN"
-		(shape output)
+		(shape input)
 		(at 81.28 62.23 180)
 		(effects
 			(font
@@ -3772,7 +3772,7 @@
 		(uuid "ef7afa53-b350-4ff7-acf8-dd14849bea77")
 	)
 	(hierarchical_label "{CURRENT_SENSE}"
-		(shape bidirectional)
+		(shape output)
 		(at 92.71 93.98 180)
 		(effects
 			(font

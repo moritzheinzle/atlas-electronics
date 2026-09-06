@@ -190,7 +190,12 @@
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
+        "malformed_microvia_stack_span": "error",
+        "microvia_aspect_ratio": "error",
+        "microvia_crosses_core": "warning",
         "microvia_drill_out_of_range": "error",
+        "microvia_stack_depth": "error",
+        "microvia_stack_not_filled": "warning",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -264,6 +269,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -275,6 +281,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -286,6 +293,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -323,6 +331,7 @@
         }
       },
       "via_dimensions": [],
+      "via_stack_presets": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -620,7 +629,7 @@
         "line_style": 0,
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": "",
         "wire_width": 15
@@ -629,8 +638,17 @@
         "line_style": 0,
         "name": "3V3A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(221, 133, 0)",
+        "tuning_profile": "",
+        "wire_width": 15
+      },
+      {
+        "line_style": 0,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 6, 28)",
         "tuning_profile": "",
         "wire_width": 15
       },
@@ -638,7 +656,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(72, 72, 72)",
         "tuning_profile": "",
         "wire_width": 15
@@ -647,7 +665,7 @@
         "line_style": 0,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 10.0,
         "tuning_profile": "",
@@ -659,21 +677,42 @@
     },
     "net_chain_classes": {},
     "net_chain_netclasses": {},
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
-      "/inverter/SHA": [
+      "/[3] - GATE-DRIVER/SHA": [
         "High Power"
       ],
-      "/inverter/SNA": [
+      "/[3] - GATE-DRIVER/SHB": [
+        "High Power"
+      ],
+      "/[3] - GATE-DRIVER/SHC": [
+        "High Power"
+      ],
+      "/[3] - GATE-DRIVER/SNA": [
         "DIFFPAIR"
       ],
-      "/inverter/SPA": [
+      "/[3] - GATE-DRIVER/SNB": [
+        "DIFFPAIR"
+      ],
+      "/[3] - GATE-DRIVER/SNC": [
+        "DIFFPAIR"
+      ],
+      "/[3] - GATE-DRIVER/SPA": [
+        "DIFFPAIR"
+      ],
+      "/[3] - GATE-DRIVER/SPB": [
+        "DIFFPAIR"
+      ],
+      "/[3] - GATE-DRIVER/SPC": [
         "DIFFPAIR"
       ],
       "Net-(C20-Pad2)": [
         "High Power"
       ],
-      "Net-(J1-Pin_1)": [
+      "Net-(C27-Pad2)": [
+        "High Power"
+      ],
+      "Net-(C31-Pad2)": [
         "High Power"
       ]
     },
@@ -693,6 +732,10 @@
       {
         "netclass": "3V3A",
         "pattern": "+3V3A"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
       }
     ]
   },
@@ -790,10 +833,40 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "AUX1": [
+        "AUX1",
+        "AUX2",
+        "AUX3",
+        "AUX4",
+        "AUX5"
+      ],
+      "AUX2": [
+        "I2C4_PULLUP",
+        "AUX6",
+        "AUX7",
+        "AUX8",
+        "AUX9"
+      ],
+      "CRYSTAL": [
+        "OSC_IN",
+        "OSC_OUT"
+      ],
       "CURRENT_SENSE": [
         "CUR_SENSE_A",
         "CUR_SENSE_B",
         "CUR_SENSE_C"
+      ],
+      "FDCAN": [
+        "FDCAN_RX",
+        "FDCAN_TX"
+      ],
+      "FDCAN_PHY": [
+        "FDCAN_H",
+        "FDCAN_L"
+      ],
+      "NTC_MOT": [
+        "NTC_MOTOR",
+        "NTC_MOTOR_L"
       ],
       "PWM": [
         "PWM_A",
@@ -803,11 +876,30 @@
         "PWM_B_N",
         "PWM_C_N"
       ],
+      "SENSE_TEMP": [
+        "NTC_MOTOR",
+        "NTC_INVERTER"
+      ],
       "SPI_DRV": [
         "SPI_DRV_SCK",
         "SPI_DRV_MOSI",
         "SPI_DRV_MISO",
         "SPI_DRV_CS"
+      ],
+      "SPI_ENC": [
+        "SPI_ENC_SCK",
+        "SPI_ENC_MISO",
+        "SPI_ENC_MOSI"
+      ],
+      "SWD": [
+        "SWDIO",
+        "SWCLK",
+        "NRST"
+      ],
+      "UID": [
+        "UID_A",
+        "UID_B",
+        "UID_C"
       ]
     },
     "compare_symbols": {
@@ -864,7 +956,7 @@
         "uuid": "915bc1ff-7be5-4368-a2db-c4889af73afd"
       }
     ],
-    "used_designators": "Q1-2,R3-7,J1,C20-21,C23-24,D1,#PWR19,#PWR52",
+    "used_designators": "Q1-2,R3-7,R24-41,J1,J4-13,C20-21,C23-24,C36-61,D1,D10-14,#PWR19,#PWR30-47,#PWR52,#PWR55,#PWR57-58,#PWR60-81,JP1-5,U6,H1-4,Y1,TP16-24",
     "variants": []
   },
   "sheets": [
@@ -874,19 +966,51 @@
     ],
     [
       "f55389d3-e940-4fdc-b600-a2530eb9690b",
-      "mcu"
+      "[1] - MCU"
     ],
     [
       "44cf26bc-b64b-4a8e-9043-22c9628a2f80",
-      "mcu-power"
+      "[2] - MCU POWER"
     ],
     [
       "1b179a84-558c-4a91-97ba-557ac904cbc7",
-      "gate-driver"
+      "[3] - GATE-DRIVER"
     ],
     [
       "cfd1205e-f185-46eb-a2d4-3614128666d4",
-      "inverter"
+      "[4] - INVERTER"
+    ],
+    [
+      "b078b57d-4d89-43d0-9eee-ad52fa2fd47e",
+      "[12] - STATUS LED"
+    ],
+    [
+      "8b207c98-7a97-4a14-bebf-ea2600be8946",
+      "[5] - SENSE VBAT"
+    ],
+    [
+      "e721bded-dfd8-4728-9f85-832ddf8762ca",
+      "[6] - SENSE TEMP"
+    ],
+    [
+      "b136d1dc-418d-4dd5-9857-4058e82b2897",
+      "[7] - SENSE POS."
+    ],
+    [
+      "7d2b7889-b2ef-43d8-9e30-572db0cc1974",
+      "[10] - FDCAN Transceiver"
+    ],
+    [
+      "071372fb-00e4-4dbc-9140-5be18244fea5",
+      "[8] - Interconnects"
+    ],
+    [
+      "31111bce-c3cf-4571-96fd-1e6d0b264e78",
+      "[11] - Power Connects"
+    ],
+    [
+      "d98e9200-e700-4901-ae61-391ae6250990",
+      "[13] - MISC"
     ]
   ],
   "text_variables": {
