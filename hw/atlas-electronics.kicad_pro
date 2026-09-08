@@ -344,7 +344,7 @@
       "mpn": "",
       "net_names": "",
       "ref_des": "",
-      "sch_revision": "",
+      "sch_revision": "0.0.1",
       "sections": ""
     },
     "layer_pairs": [],
@@ -679,29 +679,18 @@
     "net_chain_netclasses": {},
     "net_colors": {},
     "netclass_assignments": {
-      "/[3] - GATE-DRIVER/SHA": [
+      "/FOC - Gate Driver/SHA": [
         "High Power"
       ],
-      "/[3] - GATE-DRIVER/SHB": [
-        "High Power"
-      ],
-      "/[3] - GATE-DRIVER/SHC": [
-        "High Power"
-      ],
-      "/[3] - GATE-DRIVER/SPA": [
-        "DIFFPAIR",
-        "High Power"
-      ],
-      "/[3] - GATE-DRIVER/SPB": [
-        "DIFFPAIR",
-        "High Power"
-      ],
-      "/[3] - GATE-DRIVER/SPC": [
+      "/FOC - Gate Driver/SPA": [
         "DIFFPAIR",
         "High Power"
       ],
       "GND": [
         "DIFFPAIR"
+      ],
+      "Net-(U1A-VDDA)": [
+        "3V3A"
       ]
     },
     "netclass_patterns": [
@@ -810,13 +799,37 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_scope": "reference",
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -932,7 +945,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://atlas2.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -944,7 +957,7 @@
         "uuid": "915bc1ff-7be5-4368-a2db-c4889af73afd"
       }
     ],
-    "used_designators": "Q1-6,R1-41,J1-13,C1-69,D1-14,#PWR1-81,JP1-5,U1-6,H1-4,Y1,TP1-24,FB1,L1,TH1",
+    "used_designators": "Q1-6,J1-13,R1-41,C1-69,#PWR1-81,#PWR97,D1-15,JP1-5,U1-6,H1-4,Y1,TP1-24,FB1,L1,TH1",
     "variants": []
   },
   "sheets": [
@@ -953,55 +966,58 @@
       "Root"
     ],
     [
-      "f55389d3-e940-4fdc-b600-a2530eb9690b",
-      "[1] - MCU"
+      "3c47179d-a882-449f-a46c-68f8f64303ae",
+      "Power"
     ],
     [
       "44cf26bc-b64b-4a8e-9043-22c9628a2f80",
-      "[2] - MCU POWER"
+      "MCU - Power"
+    ],
+    [
+      "f55389d3-e940-4fdc-b600-a2530eb9690b",
+      "MCU - IO Domain"
     ],
     [
       "1b179a84-558c-4a91-97ba-557ac904cbc7",
-      "[3] - GATE-DRIVER"
+      "FOC - Gate Driver"
     ],
     [
       "cfd1205e-f185-46eb-a2d4-3614128666d4",
-      "[4] - INVERTER"
-    ],
-    [
-      "b078b57d-4d89-43d0-9eee-ad52fa2fd47e",
-      "[12] - STATUS LED"
+      "FOC - Inverter"
     ],
     [
       "8b207c98-7a97-4a14-bebf-ea2600be8946",
-      "[5] - SENSE VBAT"
+      "Sensing - VBAT"
     ],
     [
       "e721bded-dfd8-4728-9f85-832ddf8762ca",
-      "[6] - SENSE TEMP"
+      "Sensing - Temperature"
     ],
     [
       "b136d1dc-418d-4dd5-9857-4058e82b2897",
-      "[7] - SENSE POS."
+      "Sensing - Position"
+    ],
+    [
+      "b078b57d-4d89-43d0-9eee-ad52fa2fd47e",
+      "Interface - Status LEDs"
     ],
     [
       "7d2b7889-b2ef-43d8-9e30-572db0cc1974",
-      "[10] - FDCAN Transceiver"
+      "Interface - FDCAN Tran."
     ],
     [
       "071372fb-00e4-4dbc-9140-5be18244fea5",
-      "[8] - Interconnects"
-    ],
-    [
-      "31111bce-c3cf-4571-96fd-1e6d0b264e78",
-      "[11] - Power Connects"
+      "Interface - Interconnects"
     ],
     [
       "d98e9200-e700-4901-ae61-391ae6250990",
-      "[13] - MISC"
+      "MISC."
     ]
   ],
   "text_variables": {
+    "BOARD_NAME": "ATLAS Motion",
+    "DESIGNER": "Moritz Heinzle",
+    "GIT_HASH_SHA": "as89s1",
     "Test": "Test"
   },
   "tuning_profiles": {

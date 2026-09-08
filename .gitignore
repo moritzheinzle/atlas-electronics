@@ -1,0 +1,32 @@
+# KiCad autosave, lock, and backup files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.bak
+*_autosave-*
+*.lck
+
+# Backup directory
+*-backups/
+
+# Local workspace & editor state
+.history/
+.vscode/
+.idea/
+
+# Gerber and manufacturing outputs (uncomment if you generate them locally)
+# gerbers/
+# fabrication/
+# production/
+# *.drl
+# *.gbr
+# *.pos
+# *.csv
+# *.pdf
+# *.step
+# *.stp
+
+# Operating system noise
+.DS_Store
+Thumbs.db

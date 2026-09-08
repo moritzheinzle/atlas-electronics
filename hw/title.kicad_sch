@@ -1,0 +1,28 @@
+(kicad_sch
+	(version 20260830)
+	(generator "eeschema")
+	(generator_version "10.99")
+	(uuid "2f6c688b-eb0a-4205-b9a1-3ba600bfc031")
+	(paper "A4")
+	(title_block
+		(date "2026-09-07")
+		(rev "0.0.1")
+	)
+	(lib_symbols)
+	(text "ATLAS Motion. An FOC Controller"
+		(exclude_from_sim no)
+		(at 151.384 87.122 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0f114869-2818-41ad-847c-bb234fa522ac")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
