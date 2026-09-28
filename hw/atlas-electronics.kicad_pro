@@ -593,16 +593,18 @@
       "unresolved_variable": "error",
       "variant_symbol_incompatible": "warning",
       "variant_symbol_invalid": "error",
-      "wire_dangling": "error"
+      "wire_dangling": "error",
+      "wired_implicit_power": "warning"
     }
   },
   "libraries": {
+    "pinned_design_block_libs": [],
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "atlas-electronics.kicad_pro",
-    "version": 3
+    "version": 4
   },
   "net_settings": {
     "classes": [
@@ -823,6 +825,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VFD",
+          "name": "VFD",
+          "show": true
         }
       ],
       "filter_scope": "reference",
@@ -938,6 +946,7 @@
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
+      "show_dnp_markers": true,
       "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
@@ -957,7 +966,7 @@
         "uuid": "915bc1ff-7be5-4368-a2db-c4889af73afd"
       }
     ],
-    "used_designators": "Q1-6,J1-13,R1-41,C1-69,#PWR1-81,#PWR97,D1-15,JP1-5,U1-6,H1-4,Y1,TP1-24,FB1,L1,TH1",
+    "used_designators": "#PWR1-81,#PWR97,C1-69,D1-15,FB1,H1-4,J1-13,JP1-5,L1,Q1-6,R1-41,TH1,TP1-24,U1-6,Y1",
     "variants": []
   },
   "sheets": [

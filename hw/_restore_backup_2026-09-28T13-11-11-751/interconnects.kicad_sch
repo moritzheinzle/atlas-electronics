@@ -3579,12 +3579,6 @@
 		(uuid "ce751d7b-10d2-4448-9304-ff27e9d5639c")
 	)
 	(junction
-		(at 105.41 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1a91202-4efd-47df-96d2-b6145046d86b")
-	)
-	(junction
 		(at 236.22 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4119,16 +4113,6 @@
 			(type default)
 		)
 		(uuid "38f2c96d-e510-44e3-bf9c-ae0bc698d810")
-	)
-	(wire
-		(pts
-			(xy 105.41 146.05) (xy 105.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393614c7-d6a3-4d0d-a21c-587961e0e601")
 	)
 	(wire
 		(pts
@@ -5522,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 146.0811) (xy 105.41 146.05)
+			(xy 105.41 146.0811) (xy 105.41 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6023,17 +6007,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 168.91 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1ff5950c-763e-48b2-9b17-4538467eb17f")
 		)
@@ -6044,6 +6017,88 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 148.6211 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a71134-0160-49c1-8314-6129236d916a")
+		(property "Reference" "C56"
+			(at 107.95 147.351 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 107.95 149.891 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.41 148.6211 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 148.6211 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 158.7811 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "311f9096-106f-4b4d-87a0-f8955f2dd513")
+		)
+		(pin "2"
+			(uuid "b68956a1-8b3b-443c-8ac2-c764f25caf50")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -6110,17 +6165,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 142.24 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6281,17 +6325,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 224.79 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6460,17 +6493,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 228.6 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2e848dac-07f4-42f5-9be1-6b68df808597")
 		)
@@ -6562,17 +6584,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 114.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6676,17 +6687,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 83.82 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6912,7 +6912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6945,7 +6945,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6953,17 +6953,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 125.73 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7063,6 +7052,88 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 238.76 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b3f1f9-d9b6-46bd-beab-f09c29d969fd")
+		(property "Reference" "C54"
+			(at 241.3 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.3 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+			(at 238.76 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 238.76 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "932180d7-2caf-4c7e-a501-1bb102b016f0")
+		)
+		(pin "2"
+			(uuid "c45571d7-ca0d-46e2-9d3b-8c6160c31db6")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 158.75 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -7125,17 +7196,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 158.75 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7218,17 +7278,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 153.67 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7407,7 +7456,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 267.97 207.01 0)
+		(at 95.25 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7415,9 +7464,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3f57a69a-e19f-4821-8a5f-bbfd38e25149")
-		(property "Reference" "C61"
-			(at 266.192 199.39 0)
+		(fields_autoplaced yes)
+		(uuid "449926cf-3429-47ea-beb5-005bc37f5011")
+		(property "Reference" "C55"
+			(at 97.79 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,8 +7477,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n X7R 50V"
-			(at 266.192 201.93 0)
+		(property "Value" "C_Small"
+			(at 97.79 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,8 +7488,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.97 207.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 207.01 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,7 +7511,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 267.97 217.17 0)
+			(at 95.25 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,39 +7520,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C307331"
-			(at 267.97 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 267.97 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3044364c-296b-4b17-ab2d-090f61beed4c")
 		)
 		(pin "1"
-			(uuid "677e5845-52a7-4956-add0-9a7afbf3c36e")
+			(uuid "548f367c-a12b-4525-a3b1-fbf65ca45df7")
+		)
+		(pin "2"
+			(uuid "cc2937e1-50d5-4f92-aaa9-2f831b90a7a2")
 		)
 		(instances
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C61")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -7569,17 +7597,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 110.49 165.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7662,17 +7679,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 110.49 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e2c54071-9cda-48d4-b653-e08caf853fbc")
 		)
@@ -7749,17 +7755,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 163.83 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7922,17 +7917,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 224.79 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3ddbab2d-4fa1-456d-8c45-d59b48c0e3b2")
 		)
@@ -8064,7 +8048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8081,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8105,17 +8089,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8280,17 +8253,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 153.67 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8fd924fd-5deb-41f5-b3c5-5d4160d5ee7e")
 		)
@@ -8367,17 +8329,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 156.21 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8542,17 +8493,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 251.46 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "fc2d9604-355e-423b-8537-d506de1c189f")
 		)
@@ -8566,6 +8506,88 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 267.97 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6068c17f-fe98-4de3-a3d9-cc533b8bf1b5")
+		(property "Reference" "C61"
+			(at 270.51 205.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 270.51 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+			(at 267.97 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "834290af-46c6-4f77-abc7-ed81c03f29cf")
+		)
+		(pin "2"
+			(uuid "91d152fe-9bed-4bff-9e72-dc460e19e3c5")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -8796,17 +8818,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 163.83 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "734a9805-d132-4931-a5ff-e630f0522018")
 		)
@@ -8968,17 +8979,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 256.54 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "6"
 			(uuid "e2054896-41f6-4158-896d-45f565b94fbb")
 		)
@@ -9072,17 +9072,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 173.99 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9245,17 +9234,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 294.64 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d89db041-c813-419f-a81c-c3c9a61a5300")
 		)
@@ -9266,109 +9244,6 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 238.76 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "896206be-fbf7-46ac-a77c-e04a4c433193")
-		(property "Reference" "C54"
-			(at 236.982 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 50V"
-			(at 236.982 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 238.76 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 238.76 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 238.76 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 238.76 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2b4ca77-daf4-49fd-9793-b7fff0123088")
-		)
-		(pin "1"
-			(uuid "fe0036b4-4a60-46ff-9b3e-11876b8bfdac")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -9438,17 +9313,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 158.75 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9532,17 +9396,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 279.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "74c59902-3af9-4cbf-84ec-c25ab2826720")
 		)
@@ -9619,17 +9472,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 142.24 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9790,17 +9632,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 156.21 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10039,17 +9870,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 110.49 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4d28ecfc-6d20-4860-82c8-8f7a1e63939f")
 		)
@@ -10208,17 +10028,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 163.83 146.05 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10383,17 +10192,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 102.87 223.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "aa32a381-c986-4019-a23a-d63933052536")
 		)
@@ -10404,109 +10202,6 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 210.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9d9bc26-e0e9-4864-b6a8-cb60ab5a33d5")
-		(property "Reference" "C62"
-			(at 90.932 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 50V"
-			(at 90.932 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 92.71 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 92.71 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "354a8d00-0260-404f-838f-641abdb1a3e3")
-		)
-		(pin "1"
-			(uuid "b835a9fc-f96f-4da1-b870-76942e908f8f")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -10576,17 +10271,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 294.64 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10672,17 +10356,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 148.59 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ebe25e1a-65ee-4904-a94e-682cad5c585d")
 		)
@@ -10762,17 +10435,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 168.91 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10856,17 +10518,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 279.4 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "805ba564-d0c6-4aac-bc72-2d8a2272d52f")
 		)
@@ -10946,17 +10597,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 142.24 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0f744796-82d5-4368-942f-6554a962f8f3")
 		)
@@ -10967,109 +10607,6 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 105.41 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce5bcc3e-e454-4ce6-97d5-d608323a3b4c")
-		(property "Reference" "C56"
-			(at 103.632 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 50V"
-			(at 103.632 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 105.41 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 105.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 105.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9ee8c19-8a31-4319-a1ce-1d8a968401a9")
-		)
-		(pin "1"
-			(uuid "a1b2d260-77a1-49b8-ae4b-0f821be00f85")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11136,17 +10673,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 110.49 167.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11229,17 +10755,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 163.83 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11337,6 +10852,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d08e08-c356-43c5-afb1-5f968aeb1d0e")
+		(property "Reference" "C62"
+			(at 95.25 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 95.25 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+			(at 92.71 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53c88072-a585-419a-93a5-acd04d906860")
+		)
+		(pin "2"
+			(uuid "00102845-2255-4bee-9788-830c4b6d1ed1")
+		)
+		(instances
+			(project "atlas-electronics"
+				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 142.24 92.71 90)
 		(unit 1)
@@ -11397,17 +10994,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 142.24 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11487,17 +11073,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 142.24 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11738,17 +11313,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 309.88 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "fe8e4cd5-bdd6-4eca-b730-24be82b7ac30")
 		)
@@ -11827,17 +11391,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 81.28 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11964,7 +11517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF X7R 50V"
+		(property "Value" "C_Small"
 			(at 311.15 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +11528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 308.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12008,28 +11561,6 @@
 				)
 			)
 		)
-		(property "VFD" "Y"
-			(at 308.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "LCSC" "C1538"
-			(at 308.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0341a16d-c4aa-41fa-8b26-2a06709316c3")
 		)
@@ -12040,109 +11571,6 @@
 			(project "atlas-electronics"
 				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 95.25 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ffa222fc-f277-4ac7-975c-e5948c1782a4")
-		(property "Reference" "C55"
-			(at 93.472 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n X7R 50V"
-			(at 93.472 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.25 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 95.25 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 95.25 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0bf1eb2a-53a0-4de5-bf04-97b6a6c33b02")
-		)
-		(pin "1"
-			(uuid "b465ab4c-2f38-4060-bede-340345a7916f")
-		)
-		(instances
-			(project "atlas-electronics"
-				(path "/915bc1ff-7be5-4368-a2db-c4889af73afd/071372fb-00e4-4dbc-9140-5be18244fea5"
-					(reference "C55")
 					(unit 1)
 				)
 			)

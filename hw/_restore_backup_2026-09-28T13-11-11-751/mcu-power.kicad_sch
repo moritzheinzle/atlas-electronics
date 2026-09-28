@@ -3849,7 +3849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3882,7 +3882,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 107.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3890,17 +3890,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 107.95 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4144,17 +4133,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 194.31 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "41"
 			(uuid "b24b8e8d-e2a0-4ffb-bd6d-8a62009a3fd3")
 		)
@@ -4390,7 +4368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 161.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4431,17 +4409,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 161.29 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4572,7 +4539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4572,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4613,17 +4580,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 161.29 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4676,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4709,7 +4665,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 143.51 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4717,17 +4673,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 143.51 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5058,17 +5003,6 @@
 				)
 			)
 		)
-		(property "VFD" "Y"
-			(at 146.05 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6dc2aa30-79d9-4e3b-8f07-e66c73c647a2")
 		)
@@ -5157,17 +5091,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 130.81 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5263,17 +5186,6 @@
 				)
 			)
 		)
-		(property "VFD" "Y"
-			(at 119.38 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ec93becc-94ab-4cfb-b143-0696ad6ecb87")
 		)
@@ -5323,7 +5235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5356,7 +5268,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5364,17 +5276,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 163.83 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5427,7 +5328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5460,7 +5361,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5468,17 +5369,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 125.73 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5653,17 +5543,6 @@
 				)
 			)
 		)
-		(property "VFD" "Y"
-			(at 146.05 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cba69c17-ad08-4717-a739-a0015c52ce57")
 		)
@@ -5713,7 +5592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5746,7 +5625,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5754,17 +5633,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 163.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5857,17 +5725,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 90.17 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)

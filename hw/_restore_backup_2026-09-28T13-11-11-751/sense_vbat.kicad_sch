@@ -1440,17 +1440,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 106.68 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1f34e55a-3b60-4c60-89e1-2ed80f36c64f")
 		)
@@ -1500,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1533,7 +1522,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 157.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1541,17 +1530,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 157.48 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -1604,7 +1582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1637,7 +1615,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1645,17 +1623,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" "Y"
-			(at 128.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -1831,17 +1798,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 157.48 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "7621dce0-b8fe-4aa5-98e2-b9197a51ae44")
 		)
@@ -1932,17 +1888,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 106.68 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)

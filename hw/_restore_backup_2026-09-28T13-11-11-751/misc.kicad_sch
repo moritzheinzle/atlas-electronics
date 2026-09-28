@@ -1932,17 +1932,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 72.39 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c0944765-434c-41f8-a6e3-ad7667422978")
 		)
@@ -2105,17 +2094,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 63.5 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "58e6d551-be13-4d3e-aec2-52ead39ef44b")
 		)
@@ -2274,17 +2252,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 54.61 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2684,17 +2651,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 72.39 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e0ab3829-de17-41af-90bf-d57cd245a073")
 		)
@@ -2777,17 +2733,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 77.47 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cae488f9-2747-46b1-8665-4d871389cbbf")
 		)
@@ -2862,17 +2807,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 204.47 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -2959,17 +2893,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 54.61 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "02f9ada5-a2ba-4eea-9caf-c50872067bd6")
 		)
@@ -3052,17 +2975,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 123.19 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9b94d071-03f3-4ae1-93dc-54191f7c1088")
 		)
@@ -3139,17 +3051,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 63.5 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3266,17 +3167,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 196.85 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "12bdd807-26cd-43b4-9be4-fd6d7a076250")
 		)
@@ -3365,17 +3255,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 100.33 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4c7069fa-c563-43cb-b41d-fab3f4ac819b")
 		)
@@ -3455,17 +3334,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 54.61 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "afb94ab6-1a18-4aca-9ce6-a74eb6d7b492")
 		)
@@ -3503,7 +3371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF X7R 50V"
+		(property "Value" "10pF"
 			(at 180.34 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3544,28 +3412,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 187.96 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "LCSC" "C32949"
-			(at 187.96 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3684,7 +3530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF X7R 50V"
+		(property "Value" "10pF"
 			(at 208.28 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 205.74 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3725,28 +3571,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 205.74 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "LCSC" "C32949"
-			(at 205.74 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)

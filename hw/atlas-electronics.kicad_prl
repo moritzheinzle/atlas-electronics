@@ -53,7 +53,6 @@
       "shapes",
       "board_outline_area",
       "ly_points",
-      "grid_items",
       "via_stitching"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",

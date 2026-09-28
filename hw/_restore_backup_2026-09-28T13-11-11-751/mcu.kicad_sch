@@ -6021,17 +6021,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "89188a5a-8dea-49f2-976f-d32c714139c6")
 		)
@@ -6108,17 +6097,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6201,17 +6179,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9ec7bd08-c891-4b27-aa4c-7d7054e05b6b")
 		)
@@ -6288,17 +6255,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6381,17 +6337,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "29c872e0-71d6-4974-ac0c-b618a518c8f6")
 		)
@@ -6468,17 +6413,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6561,17 +6495,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "edf91600-8835-4652-8c5a-fcd3dc255962")
 		)
@@ -6648,17 +6571,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6741,17 +6653,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "81231544-fd07-4327-b2b7-3d1d70f6b15a")
 		)
@@ -6831,17 +6732,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4d1d9665-5bf5-47a7-a31e-bac9d12f8f57")
 		)
@@ -6916,17 +6806,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 58.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7198,17 +7077,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "835d3834-b976-4e52-8f6e-deef806a0177")
 		)
@@ -7285,17 +7153,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7378,17 +7235,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4b36769d-4816-491f-b05f-c262cd96a850")
 		)
@@ -7465,17 +7311,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7558,17 +7393,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "256a135f-7aef-422d-a29b-bc5342fcf05a")
 		)
@@ -7645,17 +7469,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7738,17 +7551,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "740ef8af-6f9c-44eb-b101-307daa022853")
 		)
@@ -7825,17 +7627,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7918,17 +7709,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "bc6cf862-94d8-4ffd-be5c-9675bb3209f4")
 		)
@@ -8005,17 +7785,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8098,17 +7867,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3074b626-86ac-43c9-b166-af36da7638f3")
 		)
@@ -8185,17 +7943,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8278,17 +8025,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "00696308-fb30-443f-94ee-8898ecd236f0")
 		)
@@ -8365,17 +8101,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8458,17 +8183,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "526019b2-35b1-4013-af09-8aa7e079bea9")
 		)
@@ -8545,17 +8259,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8638,17 +8341,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "44a048f1-6ad6-4d4b-9a84-a93045846c95")
 		)
@@ -8728,17 +8420,6 @@
 				)
 			)
 		)
-		(property "VFD" ""
-			(at 265.43 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d1363904-2f04-435a-9aed-e26f98b6f406")
 		)
@@ -8815,17 +8496,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VFD" ""
-			(at 265.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
 				)
 			)
 		)

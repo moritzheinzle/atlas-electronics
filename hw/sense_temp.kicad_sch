@@ -776,6 +776,17 @@
 				)
 			)
 		)
+		(property "VFD" ""
+			(at 146.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "291b39bb-d106-414b-bdf2-fc05a49e6798")
 		)
@@ -947,6 +958,17 @@
 				)
 			)
 		)
+		(property "VFD" "Y"
+			(at 157.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "99635397-32ac-4f10-8c32-9ef68813e036")
 		)
@@ -1034,6 +1056,17 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VFD" ""
+			(at 146.05 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 			)
 		)
