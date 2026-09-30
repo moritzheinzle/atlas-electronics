@@ -2617,10 +2617,6 @@
 		(uuid "0467095c-c55d-4fd5-84ad-5908f5d8a21f")
 	)
 	(no_connect
-		(at 73.66 92.71)
-		(uuid "13cc0a75-c2fb-4a32-938e-72f3461e3c8b")
-	)
-	(no_connect
 		(at 43.18 125.73)
 		(uuid "61106339-5688-4644-ac93-1f60c042c45d")
 	)
@@ -3976,6 +3972,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 92.71) (xy 96.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa9f5d9-51fd-4ee2-8087-5bf766e44d90")
+	)
+	(wire
+		(pts
 			(xy 110.49 113.03) (xy 129.54 113.03)
 		)
 		(stroke
@@ -4323,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "e77060a9-9c6a-45e8-a249-f415b4a1ef41")
+	)
+	(wire
+		(pts
+			(xy 186.69 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7822b28-a309-4997-883b-861fd98ca53a")
 	)
 	(wire
 		(pts
@@ -4984,6 +5000,16 @@
 		)
 		(uuid "60961f2f-a6d9-45da-9e3a-416c99d25471")
 	)
+	(label "STATUS_LED_SIMPLE"
+		(at 96.52 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a520180-fdca-41d8-ae04-d78e05cb8f90")
+	)
 	(label "FDCAN_RX"
 		(at 110.49 113.03 0)
 		(effects
@@ -5594,6 +5620,16 @@
 		)
 		(uuid "e2c72049-9406-4cae-a4a9-0e6c772b48bf")
 	)
+	(label "STATUS_LED_SIMPLE"
+		(at 186.69 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2e9456d-b1d2-4b26-b841-5963a0cae7a4")
+	)
 	(label "NTC_INVERTER"
 		(at 110.49 166.37 0)
 		(effects
@@ -5953,6 +5989,17 @@
 			(justify left)
 		)
 		(uuid "e5905c90-9973-49cf-a7b4-2e569afe5522")
+	)
+	(hierarchical_label "STATUS_LED_SIMPLE"
+		(shape output)
+		(at 220.98 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0ee8111-98c4-495f-9972-1fc043065578")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")

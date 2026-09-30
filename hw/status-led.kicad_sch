@@ -1085,6 +1085,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 127) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d057f-098e-4589-9717-be80932479ed")
+	)
+	(wire
+		(pts
 			(xy 186.69 78.74) (xy 190.5 78.74)
 		)
 		(stroke
@@ -1483,6 +1493,17 @@
 		)
 		(uuid "ff967703-e094-4e84-ac39-471be7bb891c")
 	)
+	(hierarchical_label "STATUS_LED_SIMPLE"
+		(shape input)
+		(at 81.28 127 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "0e0f7eff-56e8-48ae-95ec-1a017254a7c1")
+	)
 	(hierarchical_label "STATUS_LED"
 		(shape input)
 		(at 81.28 97.79 180)
@@ -1665,7 +1686,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 121.92 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2402,7 +2423,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 143.51 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2668,7 +2689,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C75925"
+		(property "LCSC" ""
 			(at 91.44 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2860,7 +2881,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3257,7 +3278,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3367,7 +3388,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 208.28 97.79 0)
 			(hide yes)
 			(show_name no)

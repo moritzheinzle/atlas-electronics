@@ -3385,7 +3385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.062 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -3418,7 +3418,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C25744"
 			(at 116.84 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3429,7 +3429,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 116.84 80.01 0)
 			(hide yes)
 			(show_name no)

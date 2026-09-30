@@ -5160,7 +5160,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 130.81 111.76 90)
 			(hide yes)
 			(show_name no)

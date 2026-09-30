@@ -4715,7 +4715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1A 40V"
+		(property "Value" "B5819W SL"
 			(at 24.13 157.1624 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +4770,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 21.59 156.21 90)
 			(hide yes)
 			(show_name no)

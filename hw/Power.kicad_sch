@@ -3950,7 +3950,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C341059"
+		(property "LCSC" ""
 			(at 172.72 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -4087,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS16"
+		(property "Value" "SS14"
 			(at 163.83 72.0724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +4098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4131,7 +4131,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18199176"
+		(property "LCSC" "C2480"
 			(at 161.29 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4142,7 +4142,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 161.29 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4256,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 204.47 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -4305,7 +4305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 181.61 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +4316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -4349,7 +4349,18 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 179.07 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4553,7 +4564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u C0G 50V"
+		(property "Value" "1u 7XR 25V"
 			(at 178.054 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4800,7 +4811,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 195.58 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u C0G 50V"
+		(property "Value" "1u 7XR 25V"
 			(at 122.174 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +6297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u C0G 50V"
+		(property "Value" "1u 7XR 25V"
 			(at 142.748 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6521,7 +6532,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 116.84 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -7237,7 +7248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u C0G 50V"
+		(property "Value" "1u 7XR 25V"
 			(at 86.868 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "54k9"
+		(property "Value" "54k9 1%"
 			(at 181.61 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +7777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.292 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -7799,7 +7810,18 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C23206"
 			(at 179.07 73.66 0)
 			(hide yes)
 			(show_name no)

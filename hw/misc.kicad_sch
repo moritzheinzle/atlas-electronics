@@ -1888,7 +1888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 74.93 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +1899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.612 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -1932,7 +1932,18 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3098,7 +3109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 66.04 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,7 +3120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.722 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3142,7 +3153,18 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
+			(at 63.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3266,7 +3288,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3411,7 +3433,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 57.15 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3422,7 +3444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 56.388 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3455,7 +3477,18 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
+			(at 54.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3503,7 +3536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF X7R 50V"
+		(property "Value" "10pF C0G 50V"
 			(at 180.34 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3547,7 +3580,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 187.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF X7R 50V"
+		(property "Value" "10pF C0G 50V"
 			(at 208.28 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +3761,7 @@
 				)
 			)
 		)
-		(property "VFD" ""
+		(property "VFD" "Y"
 			(at 205.74 110.49 0)
 			(hide yes)
 			(show_name no)
