@@ -2083,7 +2083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2255,7 +2255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -2662,7 +2662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 72.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2755,7 +2755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 77.47 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -2948,7 +2948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 54.61 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3041,7 +3041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 123.19 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3365,7 +3365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 100.33 173.99 0)
 			(hide yes)
 			(show_name no)
