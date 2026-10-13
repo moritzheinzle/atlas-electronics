@@ -1,0 +1,43 @@
+name: "Feature / Task"
+description: "Propose a new feature, hardware integration, or task"
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the scope and acceptance criteria before submitting.
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope & Description
+      description: What specific functionality will be implemented?
+      placeholder: "Implement FrameBufferAllocator memory pool for CAM0..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Definition of Done
+      description: Checkboxes that must pass before merging the PR.
+      options:
+        - label: Code compiles with zero warnings
+          required: true
+        - label: Hardware/unit verification passes on target
+          required: true
+        - label: Follows Conventional Commit syntax (#<issue_number>)
+          required: true
+
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Subsystem
+      options:
+        - "C++ Core / libcamera"
+        - "IPC / Shared Memory"
+        - "Device Tree / Overlays"
+        - "CI / Build System"
+    validations:
+      required: true
